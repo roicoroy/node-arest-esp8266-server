@@ -1,0 +1,31 @@
+doctype
+html
+  head
+    title Interface
+    link(rel='stylesheet', href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css")
+    link(rel='stylesheet', href="/css/interface.css")
+    meta(name='viewport', content='width=device-width, initial-scale=1')  
+
+    script(src="https://code.jquery.com/jquery-2.1.1.min.js")
+    script(src="/js/ajaxq.js")
+    script(src="/js/interface.js")
+  body
+    .container
+      h1 Dashboard
+      .row.voffset
+        .col-md-4
+          div Relay Control
+        .col-md-4
+          button.btn.btn-block.btn-lg.btn-primary#2 On
+        .col-md-4
+          button.btn.btn-block.btn-lg.btn-danger#1 Off
+
+        .row.voffset
+        .col-md-4
+          div LED Control
+        .col-md-4
+          button.btn.btn-block.btn-lg.btn-primary#led1 On
+        .col-md-4
+          button.btn.btn-block.btn-lg.btn-danger#led2 Off
+        
+       
